@@ -1,9 +1,0 @@
-let details = navigator.userAgent;
-let regexp = /android|iphone/i;
-let isMobileDevice = regexp.test(details);
-
-if (isMobileDevice) {
-    location.href="mobile.html";
-}
-
-else {}
