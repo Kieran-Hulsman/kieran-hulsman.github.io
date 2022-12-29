@@ -59,12 +59,9 @@ img.photo {
     margin-left: 3vh;
 }
 
-a:link {
-    color: rgb(41, 41, 255);
-}
-
+a:link,
 a:visited {
-    color: rgb(110, 63, 213);
+    color: rgb(41, 41, 255);
 }
 
 /* mobile */
@@ -127,11 +124,8 @@ a:visited {
         color: rgb(143, 143, 143);
     }
 
-    a:link {
-        color: rgb(70, 144, 255);
-    }
-
+    a:link,
     a:visited {
-        color: rgb(190, 160, 255);
+        color: rgb(70, 144, 255);
     }
 }
