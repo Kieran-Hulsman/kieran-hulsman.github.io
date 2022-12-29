@@ -3,5 +3,7 @@ let regexp = /android|iphone/i;
 let isMobileDevice = regexp.test(details);
 
 if (isMobileDevice) {
-    document.write("<p>mobile</p>")
+    location.href="mobile.html";
 }
+
+else {}
