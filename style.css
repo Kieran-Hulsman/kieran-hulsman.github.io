@@ -64,8 +64,14 @@ img.photo {
 
 a:link,
 a:visited {
-    color: rgb(56, 89, 255);
+    color: rgb(35, 65, 218);
+    transition: 0.15s;
 }
+
+a:hover {
+    color: rgb(37, 117, 221);
+}
+
 
 /* ipad */
 @media (max-aspect-ratio: 3/4) {
@@ -144,5 +150,9 @@ a:visited {
     a:link,
     a:visited {
         color: rgb(70, 144, 255);
+    }
+
+    a:hover {
+        color: rgb(114, 171, 255);
     }
 }
