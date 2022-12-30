@@ -11,44 +11,47 @@
 img.photo {
     display: block;
     margin: auto;
-    margin-top: 8vh;
-    width: 20vh;
     border-radius: 50%;   
     border: 0.5vh solid;
+
+    margin-top: 8vh;
+    width: 20vh;
 }
 
 .name {
-    margin-top: 3.5vh;
+    margin-top: 5vh;
     font-weight: 600;
+    
     font-size: 5.5vh;
 }
 
 .title {
-    color: rgba(0, 0, 0, 0.7);
+    color: rgb(67, 67, 67);
+    font-style: italic;
+
     margin-top: 1.5vh;
     font-size: 2.75vh;
-    font-style: italic;
 }
 
 .contact-info {
-    margin: 4vw;
+    margin: 3.5vh;
 }
 
 .about-me {
-    margin-right: 21vw;
-    margin-left: 21vw;
+    margin-right: 22vw;
+    margin-left: 22vw;
 }
 
 .links {
     position: absolute;
-    bottom: 2vh;
     left: 1vh;
     right: 1vh;
+    bottom: 3.5vh;
 }
 
 .github {
     display: inline;
-    margin-right: 3vh;
+    margin-right: 2vh;
 }
 .linkedin {
     display: inline;
@@ -56,40 +59,57 @@ img.photo {
 
 .resume {
     display: inline;
-    margin-left: 3vh;
+    margin-left: 2vh;
 }
 
 a:link,
 a:visited {
-    color: rgb(41, 41, 255);
+    color: rgb(56, 89, 255);
 }
 
-/* mobile */
-@media only screen and (max-width: 500px) {
-    
+/* ipad */
+@media (max-aspect-ratio: 3/4) {
+
     * {
-        font-size: 3.5vw;
-        line-height: 5vw;
+        line-height: 3vh;   
+        font-size: 2vh;
     }
 
     img.photo {
-        display: block;
-        margin: auto;
+        margin-top: 8vh;
+        width: 20vh;
+    }
+
+    .about-me {
+        margin-right: 15vw;
+        margin-left: 15vw;
+    }
+    
+    .links {
+        bottom: 3vh;
+    }
+}
+
+/* mobile */
+@media (max-aspect-ratio: 9/16) {
+    
+    * {
+        font-size: 3.5vw;
+        line-height: 6vw;
+    }
+
+    img.photo {
         margin-top: 12vw;
         width: 35vw;
-        border-radius: 50%;
-        border: 1vw solid black;
     }
     
     .name {
-        font-weight: 600;
         font-size: 9vw;
     }
     
     .title {
-        margin-top: 2vw;
-        font-size: 4.5vw;
-        font-style: italic;
+        margin-top: 1.75vw;
+        font-size: 4.475vw;
     }
     
     .contact-info {
@@ -97,15 +117,12 @@ a:visited {
     }
     
     .about-me {
-        margin-right: 10vw;
-        margin-left: 10vw;
+        margin-right: 15vw;
+        margin-left: 15vw;
     }
     
     .links {
-        position: absolute;
-        bottom: 2vh;
-        left: 1vh;
-        right: 1vh;
+        bottom: 4vw;
     }
 }
 
@@ -121,7 +138,7 @@ a:visited {
     }
 
     .title {
-        color: rgb(143, 143, 143);
+        color: rgb(172, 172, 172);
     }
 
     a:link,
