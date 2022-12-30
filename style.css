@@ -158,6 +158,6 @@ a:hover {
     }
 
     .photo:hover {
-        box-shadow: 0 0 5px rgb(114, 171, 255);
+        box-shadow: 0 0 8px rgb(114, 171, 255);
     }
 }
