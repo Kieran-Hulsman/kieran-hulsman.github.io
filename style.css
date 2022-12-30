@@ -115,6 +115,9 @@ a:hover {
     .main-photo {
         width: 35vw;
     }
+    .main-photo:hover {
+        box-shadow: 0 0 0 0;
+    }
     
     .name {
         font-size: 8vw;
