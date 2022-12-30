@@ -8,14 +8,35 @@
     font-size: 2vh;
 }
 
-img.photo {
-    display: block;
-    margin: auto;
+.main-photo {
     border-radius: 50%;   
     border: 0.5vh solid;
+    width: 100%;
+}
 
+.rotate-img-button {
+    padding: 0;
+    margin: auto;
     margin-top: 8vh;
+    border-radius: 50%;
+    border-width: 0;
     width: 20vh;
+    height: 20vh;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.rotate-img-button:active {
+    animation-name: rotate-image;
+    animation-duration: 3s;
+}
+
+@keyframes rotate-image {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 .name {
@@ -72,7 +93,6 @@ a:hover {
     color: rgb(37, 117, 221);
 }
 
-
 /* ipad */
 @media (max-aspect-ratio: 3/4) {
 
@@ -81,9 +101,10 @@ a:hover {
         font-size: 2vh;
     }
 
-    img.photo {
+    .rotate-img-button {
         margin-top: 8vh;
         width: 20vh;
+        height: 20vh;
     }
 
     .about-me {
@@ -104,9 +125,10 @@ a:hover {
         line-height: 6vw;
     }
 
-    img.photo {
+    .rotate-img-button {
         margin-top: 12vw;
         width: 35vw;
+        height: 35vw;
     }
     
     .name {
@@ -139,7 +161,7 @@ a:hover {
         color: rgb(228, 228, 228);
     }
 
-    img.photo {
+    .main-photo {
         border-color: rgb(206, 206, 206);
     }
 
@@ -150,6 +172,7 @@ a:hover {
     a:link,
     a:visited {
         color: rgb(70, 144, 255);
+        transition: 0.15s;
     }
 
     a:hover {
