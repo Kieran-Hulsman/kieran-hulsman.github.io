@@ -9,6 +9,10 @@
     font-size: 2vh;
 }
 
+::selection {
+    background-color: rgba(180, 213, 254, 0.5);
+}
+
 .rickroll {
     display: block;
     margin: auto;
@@ -137,6 +141,7 @@ a:hover {
 
 /* darkmode */
 @media (prefers-color-scheme: dark) {
+
     body {
         background-color: rgb(27, 27, 27);
         color: rgb(228, 228, 228);
@@ -160,5 +165,9 @@ a:hover {
 
     a:hover {
         color: rgb(114, 171, 255);
+    }
+
+    ::selection {
+        background-color: rgba(101, 170, 255, 0.35);
     }
 }
