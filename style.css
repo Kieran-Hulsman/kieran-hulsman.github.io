@@ -9,15 +9,19 @@
     font-size: 2vh;
 }
 
-.photo {
+.rickroll {
     display: block;
     margin: auto;
+    margin-top: 6vh;
+}
+.main-photo {
     border-radius: 50%;   
     border: 0.5vh solid;
     border-color: black;
-
-    margin-top: 6vh;
     width: 20vh;
+}
+.main-photo:hover {
+    box-shadow: 0 0 4px rgb(35, 65, 218);
 }
 
 .name {
@@ -75,10 +79,6 @@ a:hover {
     color: rgb(37, 117, 221);
 }
 
-.photo:hover {
-    box-shadow: 0 0 4px rgb(35, 65, 218);
-}
-
 /* ipad */
 @media (max-aspect-ratio: 3/4) {
 
@@ -105,8 +105,10 @@ a:hover {
         line-height: 6vw;
     }
 
-    .photo {
+    .rickroll {
         margin-top: 10vw;
+    }
+    .main-photo {
         width: 35vw;
     }
     
@@ -140,8 +142,11 @@ a:hover {
         color: rgb(228, 228, 228);
     }
 
-    .photo {
+    .main-photo {
         border-color: rgb(206, 206, 206);
+    }
+    .main-photo:hover {
+        box-shadow: 0 0 8px rgb(114, 171, 255);
     }
 
     .title {
@@ -155,9 +160,5 @@ a:hover {
 
     a:hover {
         color: rgb(114, 171, 255);
-    }
-
-    .photo:hover {
-        box-shadow: 0 0 8px rgb(114, 171, 255);
     }
 }
