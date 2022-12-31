@@ -136,7 +136,7 @@ a:hover {
 
 /* mobile */
 @media (max-aspect-ratio: 9/16) {
-    
+
     * {
         font-size: 3.5vw;
         line-height: 6vw;
@@ -149,7 +149,7 @@ a:hover {
         width: 35vw;
     }
     .main-photo:hover {
-        box-shadow: 0 0 0 0;
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0);
     }
     
     .name {
