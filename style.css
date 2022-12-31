@@ -29,7 +29,7 @@
 }
 
 .name {
-    margin-top: 5vh;
+    margin-top: 4vh;
     font-weight: 600;
     
     font-size: 5vh;
@@ -153,6 +153,7 @@ a:hover {
     }
     
     .name {
+        margin-top: 6vw;
         font-size: 8vw;
     }
     
