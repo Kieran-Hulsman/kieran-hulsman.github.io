@@ -22,7 +22,7 @@
     border-radius: 50%;   
     border: 0.5vh solid;
     border-color: black;
-    width: 20vh;
+    width: 15vh;
 }
 .main-photo:hover {
     box-shadow: 0 0 4px rgb(35, 65, 218);
@@ -32,24 +32,24 @@
     margin-top: 4vh;
     font-weight: 600;
     
-    font-size: 5vh;
+    font-size: 3vh;
 }
 
 .title {
     color: rgb(67, 67, 67);
     font-style: italic;
 
-    margin-top: 0.85vh;
-    font-size: 2.5vh;
+    margin-top: -0.25vh;
+    font-size: 1.75vh;
 }
 
 .contact-info {
-    margin: 3.5vh;
+    margin: 2vh;
 }
 
 .about-me {
-    margin-right: 22vw;
-    margin-left: 22vw;
+    margin-right: 15vw;
+    margin-left: 15vw;
 }
 
 .links {
