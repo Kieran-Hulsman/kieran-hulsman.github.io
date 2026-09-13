@@ -73,6 +73,11 @@
     margin-left: 2vh;
 }
 
+.transcript {
+    display: inline;
+    margin-left: 2vh;
+}
+
 a:link,
 a:visited {
     color: rgb(35, 65, 218);
