@@ -24,9 +24,9 @@
     border-color: black;
     width: 15vh;
 }
-.main-photo:hover {
+/* .main-photo:hover {
     box-shadow: 0 0 4px rgb(35, 65, 218);
-}
+} */
 
 .name {
     margin-top: 4vh;
@@ -99,9 +99,9 @@ a:hover {
     .main-photo {
         border-color: rgb(206, 206, 206);
     }
-    .main-photo:hover {
+    /* .main-photo:hover {
         box-shadow: 0 0 8px rgb(114, 171, 255);
-    }
+    } */
 
     .title {
         color: rgb(172, 172, 172);
